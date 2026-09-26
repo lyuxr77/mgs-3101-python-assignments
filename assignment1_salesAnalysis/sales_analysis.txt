@@ -1,1 +1,22 @@
-Coffee Shop Sales Analysis
+Analysis and Recommendations of the Coffee Shop Sales Database
+
+Overview
+The Coffee Shop Sales Database includes 149,116 observations and three stores in New York City. It reveals clear patterns in customer purchasing behavior, hourly traffic, product popularity, and pricing structures.
+
+I. Key Understanding
+After reading the database, I found several points, such as time, transaction, methodology and product strategies need to be focused on. One is the peak hour, from 7:00 AM to 11:00 AM, which is important to the transaction volumes of the day. The transaction quantity is also a crucial variable represents most consumers’ purchasing preference, so that we can promote our service.  Besides, as for the products, I found that the price distribution and product category are very wide. The product pricing exhibits a strong positive skew distribution, which indicates that the sales volume concentrates in lower price. For the category, beverage like coffee (58,416 units) and tea (45,449 units) occupy the majority of sales of the products, followed by bakery (22,796 units). In contrast, other products like pastries generate minimal sales volume. This could help us improve our sales plan and efficiency. These variables above make me understand the data and better for me to do the analysis.
+
+II. Data-Backed Recommendations
+1. Promote Mobile Pre-Ordering to improve Service efficiency
+•	Data based: The morning peak often occurs between 7:00 AM to 11:00 AM, which generates the highest customer volume (occupy 45.8% of the day), with most people buying only a single drink. Thus, long lines during this time might slow down service and efficiency.
+•	Recommendation: Launch an online pre-ordering app with a small discount coupon for first-time users to attract them, which can improve the service efficiency and consumers’ satisfaction at the same time. This allows morning commuters to order ahead and pick up their drinks immediately, reducing counter wait times and forming a positive cycle with more returned buyers.
+2. Offer Breakfast Bundles to Increase Average Order Value
+•	Data based: Most customers only buy one item (58.5% of all transactions), or 2 items (39.3% of all transactions). Combining the commuting background, we could infer that offering a drink and bakery bundle might be a good combination for most target consumers.
+•	Recommendation: Create a discounted breakfast combination, like spending $1 more for getting an extra bakery item when buying a cup of coffee, to encourage single-item buyers to add a food item in their order.
+3. Focus on $2-4 price level more and promote top adding
+•	Data based: The price level shows most revenue come from lower-priced item, which means we need to mainly popularize them. And most people prefer to buy things at $2-4 price level. 
+•	Recommendation: launch more products at $2-4 price level. Promote simple adding products, such as size upgrades or milk caps and so on to increase the unit price.
+Questions
+• Would mobile pre-ordering discounts attract new customers? Maybe we need implements to prove that.
+• Do we need to test breakfast bundles in one store first?
+• How long does the dataset cover?
