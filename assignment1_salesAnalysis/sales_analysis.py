@@ -22,21 +22,21 @@ else:
 
 # Produces the data per the recommendations:
 # Recommendation 1: Promote Mobile Pre-Ordering to improve Service efficiency
-transaction_6am_7am = 220 #calculated through the formula in EXCEL, I've sorted 6:00:00-7:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_7am_8am = 720 #calculated through the formula in EXCEL, I've sorted 7:00:00-8:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_8am_9am = 952 #calculated through the formula in EXCEL, I've sorted 8:00:00-9:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_9am_10am = 975 #calculated through the formula in EXCEL, I've sorted 9:00:00-10:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_10am_11am = 1047 #calculated through the formula in EXCEL, I've sorted 10:00:00-11:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_11am_12pm = 497 #calculated through the formula in EXCEL, I've sorted 11:00:00-12:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_12pm_1pm = 260 #calculated through the formula in EXCEL, I've sorted 12:00:00-13:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_1pm_2pm = 383 #calculated through the formula in EXCEL, I've sorted 13:00:00-14:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_2pm_3pm = 333 #calculated through the formula in EXCEL, I've sorted 14:00:00-15:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_3pm_4pm = 343 #calculated through the formula in EXCEL, I've sorted 15:00:00-16:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_4pm_5pm = 363 #calculated through the formula in EXCEL, I've sorted 16:00:00-17:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_5pm_6pm = 306 #calculated through the formula in EXCEL, I've sorted 17:00:00-18:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_6pm_7pm = 318 #calculated through the formula in EXCEL, I've sorted 18:00:00-19:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_7pm_8pm = 217 #calculated through the formula in EXCEL, I've sorted 19:00:00-20:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
-transaction_8pm_9pm = 27 #calculated through the formula in EXCEL, I've sorted 20:00:00-21:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_6am_7am = 2612 #calculated through the formula in EXCEL, I've sorted 6:00:00-7:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_7am_8am = 7852 #calculated through the formula in EXCEL, I've sorted 7:00:00-8:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_8am_9am = 10543 #calculated through the formula in EXCEL, I've sorted 8:00:00-9:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_9am_10am = 10669 #calculated through the formula in EXCEL, I've sorted 9:00:00-10:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_10am_11am = 10867 #calculated through the formula in EXCEL, I've sorted 10:00:00-11:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_11am_12pm = 5664 #calculated through the formula in EXCEL, I've sorted 11:00:00-12:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_12pm_1pm = 4843 #calculated through the formula in EXCEL, I've sorted 12:00:00-13:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_1pm_2pm = 5135 #calculated through the formula in EXCEL, I've sorted 13:00:00-14:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_2pm_3pm = 5119 #calculated through the formula in EXCEL, I've sorted 14:00:00-15:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_3pm_4pm = 5248 #calculated through the formula in EXCEL, I've sorted 15:00:00-16:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_4pm_5pm = 5499 #calculated through the formula in EXCEL, I've sorted 16:00:00-17:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_5pm_6pm = 4940 #calculated through the formula in EXCEL, I've sorted 17:00:00-18:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_6pm_7pm = 4245 #calculated through the formula in EXCEL, I've sorted 18:00:00-19:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_7pm_8pm = 3597 #calculated through the formula in EXCEL, I've sorted 19:00:00-20:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+transaction_8pm_9pm = 326 #calculated through the formula in EXCEL, I've sorted 20:00:00-21:00:00 in the column of 'transaction_time', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
 
 hourly_transaction = [transaction_6am_7am, transaction_7am_8am, transaction_8am_9am, transaction_9am_10am, transaction_10am_11am, transaction_11am_12pm, 
                       transaction_12pm_1pm, transaction_1pm_2pm, transaction_2pm_3pm, transaction_3pm_4pm, transaction_4pm_5pm,
@@ -47,3 +47,6 @@ morning_share = morning_transactions / total_transactions
 
 print(f"Morning transactions (7am-11am): {morning_transactions:,}")
 print(f"Share of the day: {morning_share:.1%}")
+
+# Recommendation 2: Offer Breakfast Bundles to Increase Average Order Value
+
