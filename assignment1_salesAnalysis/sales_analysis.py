@@ -80,8 +80,3 @@ total_count = sum(price_level)
 price_2_4_share = price_2_4 / total_count
 print(f"Transactions occur during price level $2-4: {price_2_4:,}")
 print(f"Share of transaction during $2-4 level: {price_2_4_share:.1%}")
-
-drink_share = drink_revenue / total_revenue
-pastry_share = pastry_revenue / total_revenue
-print(f"Drink revenue: ${drink_revenue:,.2f} ({drink_share:.1%} of total)")
-print(f"Pastry revenue: ${pastry_revenue:,.2f} ({pastry_share:.1%} of total)")
