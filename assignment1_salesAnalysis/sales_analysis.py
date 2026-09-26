@@ -49,4 +49,19 @@ print(f"Morning transactions (7am-11am): {morning_transactions:,}")
 print(f"Share of the day: {morning_share:.1%}")
 
 # Recommendation 2: Offer Breakfast Bundles to Increase Average Order Value
+item_1 = 87159 #calculated through the formula in EXCEL, I've sorted 1 item in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+item_2 = 58642 #calculated through the formula in EXCEL, I've sorted 2 items in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty' and divided by 2 to see the real transaction people
+item_3 = 3279 #calculated through the formula in EXCEL, I've sorted 3 items in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty' and divided by 3 to see the real transaction people
+item_4 = 23 #calculated through the formula in EXCEL, I've sorted 4 items in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty' and divided by 4 to see the real transaction people
+item_6 = 3 #calculated through the formula in EXCEL, I've sorted 6 items in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty' and divided by 6 to see the real transaction people
+item_8 = 10 #calculated through the formula in EXCEL, I've sorted 8 items in the column of 'transaction_qty', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty' and divided by 8 to see the real transaction people
 
+items = [item_1, item_2, item_3, item_4, item_6, item_8]
+total_items = sum (items)
+item_1_share = item_1 / total_items
+item_2_share = item_2 / total_items
+share_1_or_2 = (item_1 + item_2) / total_items
+
+print(f"People buying 1 item: {item_1:,} ({item_1_share:.1%})")
+print(f"People buying 2 items: {item_2:,} ({item_2_share:.1%})")
+print(f"People buying 1-2 items: {share_1_or_2:.1%}")
