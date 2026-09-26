@@ -9,3 +9,7 @@ price_per_pastry = 3.685979456 #calculated through the formula in EXCEL, I've so
 drink_revenue = number_of_drinks_sold * price_per_drink
 pastry_revenue = number_of_pastries_sold * price_per_pastry
 total_revenue = drink_revenue + pastry_revenue
+
+# Prints the written .txt file
+with open("sales_analysis.txt", "r") as file:
+    print(file.read())
