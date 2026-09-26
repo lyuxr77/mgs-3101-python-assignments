@@ -65,3 +65,23 @@ share_1_or_2 = (item_1 + item_2) / total_items
 print(f"People buying 1 item: {item_1:,} ({item_1_share:.1%})")
 print(f"People buying 2 items: {item_2:,} ({item_2_share:.1%})")
 print(f"People buying 1-2 items: {share_1_or_2:.1%}")
+
+# Recommendation 3: Update Menu frequently and Clear Out Low-Selling Retail Items
+price_under_2 = 10511 # calculated through the formula in EXCEL, I've sorted $0-2 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_2_4 = 166733 # calculated through the formula in EXCEL, I've sorted $2-4 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_4_6 = 19917 # calculated through the formula in EXCEL, I've sorted $4-6 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_6_10 = 1427 # calculated through the formula in EXCEL, I've sorted $6-10 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_10_20 = 1676 # calculated through the formula in EXCEL, I've sorted $10-20 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_20_30 = 804 # calculated through the formula in EXCEL, I've sorted $20-30 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+price_above_30 = 260 # calculated through the formula in EXCEL, I've sorted above $30 in the column of 'unit_price', and then used '=SUBTOTAL(9,D2:D149117)' in the column of 'transaction_qty'
+
+price_level = [price_under_2, price_2_4, price_4_6, price_6_10, price_10_20, price_20_30, price_above_30]
+total_count = sum(price_level)
+price_2_4_share = price_2_4 / total_count
+print(f"Transactions occur during price level $2-4: {price_2_4:,}")
+print(f"Share of transaction during $2-4 level: {price_2_4_share:.1%}")
+
+drink_share = drink_revenue / total_revenue
+pastry_share = pastry_revenue / total_revenue
+print(f"Drink revenue: ${drink_revenue:,.2f} ({drink_share:.1%} of total)")
+print(f"Pastry revenue: ${pastry_revenue:,.2f} ({pastry_share:.1%} of total)")
