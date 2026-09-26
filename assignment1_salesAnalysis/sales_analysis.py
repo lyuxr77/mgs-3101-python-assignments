@@ -13,3 +13,9 @@ total_revenue = drink_revenue + pastry_revenue
 # Prints the written .txt file
 with open("sales_analysis.txt", "r") as file:
     print(file.read())
+
+# Uses an if/else statement to print whether total revenue is at least $500:
+if total_revenue >= 500:
+    print(f"Total revenue is ${total_revenue:,.2f}, which is equal or above $500.")
+else:
+    print(f"Total revenue is ${total_revenue:,.2f}, which is less than $500.")
